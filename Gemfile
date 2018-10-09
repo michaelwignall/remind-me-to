@@ -22,10 +22,7 @@ gem "sprockets", ">= 3.0.0"
 gem "title"
 gem "uglifier"
 gem "bootsnap", require: false
-
-group :staging do
-  gem 'scout_apm'
-end
+gem 'scout_apm'
 
 group :development do
   gem "listen"
