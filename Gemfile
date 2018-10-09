@@ -23,6 +23,9 @@ gem "title"
 gem "uglifier"
 gem "bootsnap", require: false
 
+group :staging do
+  gem 'scout_apm'
+end
 
 group :development do
   gem "listen"
